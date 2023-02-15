@@ -1,0 +1,393 @@
+
+html {
+    margin: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-image: url(src\assets\Image\background.jpg) ;
+    
+}
+.backgroundfirst{
+    background-image: url("src\assets\Image\Backgound DylanMusic 2023 small size.jpg");
+    background-size: cover;
+    
+    margin: 0px;
+    width:100%;
+    height: 60vw;
+    position: fixed;
+    top:0px;
+    z-index: -1;
+}
+.backgroundfirst-dylan{
+    background-color: #111;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+.backgroundfirst-bringtotheworld{
+    display: flex;
+    font-size: 40px;
+    color: aliceblue;
+    padding-left: 420px;
+    text-shadow: #111 0px 0px 5px;
+    letter-spacing: 6px;
+}
+.backgroundfirst-bringtotheworld-span {
+    display: flex;
+    padding-left: 20px;
+}
+.backgroundfirst-bringtotheworld-span p {
+    margin: 0px;
+}
+.bckp {
+    transition: 0.4s;
+}
+.bckp:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+}
+
+
+/*------------------CONTENT 1 -------------------- */
+.content-1{
+    width: 100%;
+}
+
+
+.content-1-text{
+    width: 100%;
+    margin-top: 590px;
+}
+
+h1 {
+    border-left: 10px black solid;
+    padding-left: 20px;
+    border-top: 1px rgb(21, 21, 21) solid;
+    border-right: 1px rgb(21, 21, 21) solid;
+    border-bottom: 1px rgb(21, 21, 21) solid;
+    box-shadow: 0px 5px 10px rgb(8, 8, 8);
+    background-color: #2e3033;
+
+}
+
+/*  */
+.content-1-newfeed {
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.content-1-newfeed-alltag {
+    display: flex;
+    margin-top: 50px;
+}
+.content-1-newfeed-tag {
+    width: 25%;
+    margin-right: 8%;
+    background-color: rgba(52, 60, 67, 0.7);
+    border: 1px solid rgb(24, 24, 24);
+    border-radius: 5px;
+}
+.content-1-newfeed-tag-content-all{
+    margin: 0px;
+}
+.content-1-newfeed-tag-header{
+    max-width: 100%;
+    max-height: 100px;
+    padding: 20px 20px 0px 20px;
+}
+.content-1-newfeed-tag-header h3 {
+   margin: 0px;
+   height: 50px;
+}
+.content-1-newfeed-tag-header h3:hover{
+    color: #9d9d9d;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.content-1-newfeed-tag-header p {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0px;
+    margin: 0px;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 15px;
+}
+.content-1-newfeed-tag-1-img {
+    background-image: url("src/assets/Image/The Galaxy.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 12vw;
+    border-radius: 5px;
+    border: rgba(255, 255 ,255,0.2) 1px solid;
+    transition: 0.2s;
+}
+.content-1-newfeed-tag-2-img {
+    background-image: url("src\assets\Image\Screenshot 2022-12-12 111314.png");
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    height: 12vw;
+    border-radius: 5px;
+    border: rgba(255, 255 ,255,0.2) 1px solid;
+    transition: 0.2s;
+
+}
+.content-1-newfeed-tag-3-img {
+    background-image: url("src\assets\Image\Dylan On Stream.jpg");
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    height: 12vw;
+    border-radius: 5px;
+    border: rgba(255, 255 ,255,0.2) 1px solid;
+    transition: 0.2s;
+}
+.content-1-newfeed-tag-img {
+    border-radius: 10px;
+}
+.content-1-newfeed-tag-img :hover {
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+.a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.content-1-newfeed-tag-content {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+
+
+
+
+/*------------------------CONTENT 2 ---------------------- */
+.content-2 {
+    top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+h1 {
+    color: white;
+}
+.content-2-alltag {
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.content-2-tag {
+    width: 100%;
+    display: flex;
+}
+.content-2-tag-img-m-text {
+    padding-top: 10px;
+}
+.content-2-tag-img-img {
+    transition: 0.2s;
+}
+
+
+/*----- Main Product -----*/
+.content-2-tag-mainproduct{
+    width: 50%;
+    margin-bottom: 30px;
+}
+.content-2-tag-img-m{
+    position: relative;
+    height: 400px;
+    margin-bottom: 5px;
+    margin-right: 2px;
+    border-radius: 10px;
+    
+    font-size: 20px;
+    color: white;
+    text-shadow: #2e3033 3px 3px 5px;
+    font-weight: 15px;
+
+}
+.content-2-tag-img-img {
+    display:flex;
+    align-items: center;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px black solid;  
+    opacity: 1; 
+}
+.content-2-tag-img-img:hover{
+    opacity: 0.7;
+    filter: blur(2px);
+}
+.content-2-tag-left{
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+.content-2-tag-img-m-text-header{
+    bottom: 10px;
+    left: 20px;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 500;
+    text-shadow: 0px 0px 10px black;
+    border-left: 7px white solid;
+    padding-left: 10px;
+}
+.content-2-tag-img-m-text-des{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/*-----No Main Product -----*/
+.content-2-tag-nomainproduct{
+    height: 400px;
+    width: 50%;  
+    background-color: rgb(0, 0, 0);
+    border-radius:10px;
+    position: relative;
+    overflow: hidden;
+}
+.content-2-tag-img-nm {
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+.content-2-tag-img-nmimg {
+    height:100%; 
+    transition: 0.4s; 
+    opacity: 1;
+}
+.content-2-tag-img-nm-overlay{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    background-color: #111;
+}
+.content-2-tag-img-nmimg:hover {
+    scale :1.05;
+    opacity: 0.8;
+    filter: blur(2px);
+}
+
+.content-2-tag-img-nm-text-header{
+    bottom: 10px;
+    left: 20px;
+    position: absolute;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    border-left: 7px white solid;
+    padding-left: 10px;
+    
+}
+.content-2-tag-img-nm-text-des{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+/*-----Product----- */
+.content-2-tag-product {
+    width: 50%;
+    height: 100%;
+    align-content: center;
+}
+.content-2-tag-img {
+    position: relative;
+    display: flex;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    height: 49%;
+    width: 100%;
+    overflow: hidden;
+}
+.content-2-tag-img-i {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2px;
+    border-radius: 10px;  
+    border: 1px black solid;
+    transition: 0.2s;
+    opacity: 1;
+}
+
+.content-2-tag-img-m{
+    overflow: hidden;
+}
+.content-2--tag-img-img{
+    transition: 0.5s;
+}
+.content-2-tag-img-img:hover {
+    scale: 1.05;
+}
+.content-2-tag-img-i:hover {
+    transform: translateX(5px);
+    opacity: 0.7;
+    filter: blur(2px);
+}
+
+.content-2-tag-img-text {
+    bottom: 10px;
+    left: 20px;
+    position: absolute;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    border-left: 7px white solid;
+    padding-left: 10px;
+}
+.content-2-tag-img-text-des {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
+
+
+/*----------------------FOOTER--------------------- */
+.footer {
+    margin-top:50px;
+    width: 100%;
+    height: auto;
+    padding-left:100px;
+    padding-top: 50px;
+    background: #111;
+    color: white;
+    display: flex;
+}
+
+.footer-first-name{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.footer-tag{
+    width: 20%;
+    margin-right: 5%;
+}
+.footer-title{
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(213, 213, 213);
+}

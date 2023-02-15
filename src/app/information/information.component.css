@@ -1,0 +1,185 @@
+#body {
+    margin: 0px;
+}
+.information{
+    width: 100%;
+    height:fit-content;
+    background-image: url(src\assets\Image\background.jpg);
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+}
+.content-1{
+    position: relative;
+    top:200px;
+}
+.content-1-bio{
+
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.content{
+    display: flex;
+}
+.content-1-bio-img{
+    width: 50%;
+    height: 40vw;
+    background-image: url('src\assets\Image\ChinhAnh.jpg');
+    background-size: cover;
+    border: 1px solid rgb(18, 18, 18);
+    border-radius: 5px;
+    box-shadow: rgb(12, 12, 12) 5px 5px 5px;
+
+}
+.content-1-bio-text{
+    width: 45%;
+    margin-left: 5%;
+}
+.content-1-bio-text-1{
+    display: flex;
+}
+.p1{
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+.header {
+    border-left: 10px black solid;
+    padding-left: 10px;
+    background-color: rgb(41, 41, 41);
+    box-shadow: 0px 5px 10px rgb(24, 24, 24);
+}
+
+.content-2 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.content-2-more-each{
+    display: flex;
+    width: 100%;
+}
+.content-2-more1-img{
+    width: 50%;
+    height: 40vw;
+    background-image: url('src\assets\Image\daw-music-production-equalizer-audio-samples-scores-computer-197939420.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgb(18, 18, 18);
+    border-radius: 5px;
+    box-shadow: rgb(12, 12, 12) 5px 5px 5px;
+
+}
+.content-2-more2-img{
+    width: 50%;
+    height: 40vw;
+    background-image: url('src\assets\Image\Chinh anh 2 2.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgb(18, 18, 18);
+    border-radius: 5px;
+    box-shadow: rgb(12, 12, 12) 5px 5px 5px;
+
+}
+.content-2-more3-img{
+    width: 50%;
+    height: 40vw;
+    background-image: url('src\assets\Image\when i see you (1) (1).jpg');
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgb(18, 18, 18);
+    border-radius: 5px;
+    box-shadow: rgb(12, 12, 12) 5px 5px 5px;
+
+}
+.content-2-more4-img{
+    width: 50%;
+    height: 40vw;
+    background-image: url('src\assets\Image\The Galaxy.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgb(18, 18, 18);
+    border-radius: 5px;
+    box-shadow: rgb(12, 12, 12) 5px 5px 5px;
+
+}
+.content-2-more5-img{
+    width: 50%;
+    height: 40vw;
+    background-image: url('src\assets\Image\Sake it down 2 (1).jpg');
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgb(18, 18, 18);
+    border-radius: 5px;
+    box-shadow: rgb(12, 12, 12) 5px 5px 5px;
+
+}
+.content-2-more6-img{
+    width: 50%;
+    height: 40vw;
+    background-image: url('src\assets\Image\everydays-july2018.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgb(18, 18, 18);
+    border-radius: 5px;
+    box-shadow: rgb(12, 12, 12) 5px 5px 5px;
+
+}
+.content-2-more7-img{
+    width: 50%;
+    height: 40vw;
+    background-image: url('src\assets\Image\20210725_093305.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgb(18, 18, 18);
+    border-radius: 5px;
+    box-shadow: rgb(12, 12, 12) 5px 5px 5px;
+
+}
+.content-2-more-text1{
+    width: 45%;
+    margin-right: 5%;
+}
+.content-2-more-text2{
+    width: 45%;
+    margin-left: 5%;
+}
+
+
+
+
+
+
+/*----------------------FOOTER--------------------- */
+.footer {
+    margin-top:50px;
+    width: 100%;
+    height: auto;
+    padding-left:100px;
+    padding-top: 50px;
+    background: #111;
+    color: white;
+    display: flex;
+}
+
+.footer-first-name{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.footer-tag{
+    width: 20%;
+    margin-right: 5%;
+}
+.footer-title{
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(213, 213, 213);
+}

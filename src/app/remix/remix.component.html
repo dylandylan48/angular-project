@@ -1,0 +1,102 @@
+<div class="main">
+
+  <div class="spacetop"></div>
+
+  <div class="music2020">
+
+    <h1>Sản phẩm âm nhạc năm 2020</h1>
+    <div class="allproduct">
+     <div class="product-right">
+       <div class="product" *ngFor="let productmajor of productmajors">
+          <div class="info">
+            <div class="inforleft">
+              <div class="title" > {{productmajor.title}} </div>
+            <div class="artist" > {{productmajor.artist}} </div>
+          </div>
+        <div class="inforight"></div>
+      </div>  
+      <div class="wave"></div>
+ 
+    </div>
+  </div>
+    
+    <div class="product2-left">
+    <div class="product2" *ngFor="let productminor of productminors">
+      <div class="info">
+        <div class="inforleft">
+          <div class="title" > {{productminor.title}} </div>
+          <div class="artist" > {{productminor.artist}} </div>
+        </div>
+        <div class="inforight"></div>
+      </div>
+      <div class="wave"></div>
+
+    </div>
+    </div>
+
+  </div>
+  </div>
+
+  <div class="music2021">
+    <h1>Sản phẩm âm nhạc năm 2021</h1>
+    <div class="allproduct">
+      <div class="product3-left">
+    <div class="product3" *ngFor="let product2021mj of product2021mjs">
+      <div class="info">
+        <div class="inforleft">
+          <div class="title" > {{product2021mj.title}} </div>
+          <div class="artist" > {{product2021mj.artist}} </div>
+        </div>
+        <div class="inforight"></div>
+      </div>
+      <div class="wave"></div>
+    </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+<footer>
+  <div class="footer">
+    <div class="footer-tag">
+      <div class="footer-first-name">DYLAN MUSIC</div>
+      <div class="footer-first-des">Bring music to everywhere</div>
+    </div>
+    <div class="footer-tag">
+      <div class="footer-title">Sản phẩm</div>
+      <div class="footer-second-menu">
+        <ul>
+          <li>Tất cả sản phẩm</li>
+          <li>Nổi bật</li>
+          <li>Remix</li>
+          <li>Typebeat</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-tag">
+      <div class="footer-title">Liên lạc</div>
+      <div class="footer-menu">
+        <ul>
+          <li>Website</li>
+          <li>Facebook</li>
+          <li>Gmail</li>
+          <li>Spotify</li>
+          <li>Soundclound</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-tag">
+      <div class="footer-title">Khác</div>
+      <div class="footer-menu">
+        <ul>
+          <li>Bản quyền</li>
+          <li>Hợp tác</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

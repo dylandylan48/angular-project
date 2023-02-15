@@ -1,0 +1,66 @@
+<router-outlet>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,600;1,7..72,200;1,7..72,300;1,7..72,500&display=swap" rel="stylesheet">
+      <title>DylanMusic</title>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,600;1,7..72,200;1,7..72,300;1,7..72,500&display=swap');
+      </style>
+    </head>
+    <body>
+      
+
+    <div class="nav">
+
+        <div class="nav-left" [routerLinkActive]="['active']">
+          <div class="nav-left-logo">
+            <img src="src/assets/Image/DylanLogo.jpg" alt="">
+          </div>
+          <div class="nav-left-name" [routerLink]="['home']" ><p>DYLAN MUSIC</p></div>
+        </div>
+
+        <div class="nav-right" [routerLinkActive]="['active']">
+          <div class="nav-right-menu">
+            <ul class="nav-right-menu-ul">
+              <li class="nav-right-menu-list" id="thongtin" [routerLink]="['infomation']">Thông tin</li>
+              <li class="nav-right-menu-list" id="sanpham"  >Sản phẩm
+                <ul class="nav-right-menu-list-sub-ul"      [routerLinkActive]="['active']">
+                  <li class="nav-right-menu-list-sub-li"    [routerLink]="['remix']">Remix</li>
+                  <li class="nav-right-menu-list-sub-li"    [routerLink]="['original']">Original</li>
+                </ul>
+              </li>
+              <li class="nav-right-menu-list" id="hoptac"   >Dịch vụ
+                <ul class="nav-right-menu-list-sub-ul" [routerLinkActive]="['active']">
+                  <li class="nav-right-menu-list-sub-li" [routerLink]="['collab']">Hợp tác</li>
+                  <li class="nav-right-menu-list-sub-li" [routerLink]="['infomation']">Mua beat</li>
+                  <li class="nav-right-menu-list-sub-li" [routerLink]="['infomation']">Bản quyền</li>
+                </ul>
+              </li>
+              <li class="nav-right-menu-list" id="kienthuc" [routerLink]="['knowledge']">Kiến thức
+                <ul class="nav-right-menu-list-sub-ul">
+                  <li class="nav-right-menu-list-sub-li">Hoà âm</li>
+                  <li class="nav-right-menu-list-sub-li">Mixing</li>
+                  <li class="nav-right-menu-list-sub-li">Mastering</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-right-more">
+            <div class="nav-right-more-search">
+              <input type="text" class="nav-right-more-search-input" placeholder="Tìm kiếm ...">
+            </div>
+          </div>
+          <div class="nav-right-option"></div>
+        </div>
+      </div>
+      
+    </body>
+    </html>
+
+</router-outlet>

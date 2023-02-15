@@ -1,0 +1,174 @@
+<div class="information">
+  <div class="content-1">
+    <div class="content-1-bio" *ngFor="let information of informations">
+      <div class="header">
+        <h1>TIỂU SỬ</h1>
+      </div>
+      <div class="content">
+        <div class="content-1-bio-img"></div>
+        <div class="content-1-bio-text">
+          <div class="content-1-bio-text-1">
+            <p class="p1">Tên :</p>
+            <p class="p2">{{ information.Name }}</p>
+          </div>
+          <div class="content-1-bio-text-1">
+            <p class="p1">Artist name :</p>
+            <p class="p2">{{ information.Alias }}</p>
+          </div>
+          <div class="content-1-bio-text-1">
+            <p class="p1">Ngày sinh :</p>
+            <p class="p2">{{ information.Dateofbirth }}</p>
+          </div>
+          <div class="content-1-bio-text-1">
+            <p class="p1">Giới tính:</p>
+            <p class="p2">{{ information.Sex }}</p>
+          </div>
+          <div class="content-1-bio-text-1">
+            <p class="p1">Quốc tịch :</p>
+            <p class="p2">{{ information.Nationality }}</p>
+          </div>
+          <div class="content-1-bio-text-1">
+            <p class="p1">Quê quán :</p>
+            <p class="p2">{{ information.Placeoforigin }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="content-2">
+
+      <div class="content-2-more" *ngFor="let information of informations">
+        <div class="header">
+          <h1>CHẶNG ĐƯỜNG ÂM NHẠC</h1>
+        </div>
+
+        <div class="content-2-more-each">
+          <div class="content-2-more-text1">
+            <div class="content-2-more-text-1">
+              <h2>Kể lể</h2>
+            </div>
+            <div class="content-2-more-text-2">
+              <p>{{information.More1}}</p>
+            </div>   
+          </div>
+          <div class="content-2-more1-img"></div>
+        </div>
+
+        <div class="content-2-more-each">
+          <div class="content-2-more2-img"></div>
+          <div class="content-2-more-text2">
+            <div class="content-2-more-text-1">
+              <h2>Ảnh hưởng từ môi truòng</h2>
+            </div>
+            <div class="content-2-more-text-2">
+              <p>{{information.More2}}</p>
+            </div>   
+          </div>
+        </div>
+
+        <div class="content-2-more-each">
+          <div class="content-2-more-text1">
+            <div class="content-2-more-text-1">
+              <h2>Giai đoạn 2018-2019</h2>
+            </div>
+            <div class="content-2-more-text-2">
+              <p>{{information.More3}}</p>
+            </div>   
+          </div>
+          <div class="content-2-more3-img"></div>
+        </div>
+
+        <div class="content-2-more-each">
+          <div class="content-2-more4-img"></div>
+          <div class="content-2-more-text2">
+            <div class="content-2-more-text-1">
+              <h2>Giai đoạn 2019-2021</h2>
+            </div>
+            <div class="content-2-more-text-2">
+              <p>{{information.More4}}</p>
+            </div>   
+          </div>
+        </div>
+
+        <div class="content-2-more-each">
+          <div class="content-2-more-text1">
+            <div class="content-2-more-text-1">
+              <h2>Giai đoạn 2021 đến nay</h2>
+            </div>
+            <div class="content-2-more-text-2">
+              <p>{{information.More5}}</p>
+            </div>   
+          </div>
+          <div class="content-2-more5-img"></div>
+        </div>
+
+        <div class="content-2-more-each">
+          <div class="content-2-more6-img"></div>
+          <div class="content-2-more-text2">
+            <div class="content-2-more-text-1">
+              <h2>Thể loại</h2>
+            </div>
+            <div class="content-2-more-text-2">
+              <p>{{information.More6}}</p>
+            </div>   
+          </div>
+        </div>
+
+        <div class="content-2-more-each">
+          <div class="content-2-more-text1">
+            <div class="content-2-more-text-1">
+              <h2>Chất lượng</h2>
+            </div>
+            <div class="content-2-more-text-2">
+              <p>{{information.More7}}</p>
+            </div>   
+          </div>
+          <div class="content-2-more7-img"></div>
+        </div>
+
+      </div>
+  </div>
+    
+  <footer>
+    <div class="footer">
+      <div class="footer-tag">
+        <div class="footer-first-name">DYLAN MUSIC</div>
+        <div class="footer-first-des">Bring music to everywhere</div>
+      </div>
+      <div class="footer-tag">
+        <div class="footer-title">Sản phẩm</div>
+        <div class="footer-second-menu">
+          <ul>
+            <li>Tất cả sản phẩm</li>
+            <li>Nổi bật</li>
+            <li>Remix</li>
+            <li>Typebeat</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-tag">
+        <div class="footer-title">Liên lạc</div>
+        <div class="footer-menu">
+          <ul>
+            <li>Website</li>
+            <li>Facebook</li>
+            <li>Gmail</li>
+            <li>Spotify</li>
+            <li>Soundclound</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-tag">
+        <div class="footer-title">Khác</div>
+        <div class="footer-menu">
+          <ul>
+            <li>Bản quyền</li>
+            <li>Hợp tác</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+</div>

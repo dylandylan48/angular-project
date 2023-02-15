@@ -1,0 +1,54 @@
+.collab {
+    background-color: rgb(34, 34, 34);
+}
+.collab-genre {
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.title {
+    font-size: 30px;
+    color: aliceblue;
+    border-left: 10px black solid;
+    padding-left: 20px;
+    border-top: 1px rgb(21, 21, 21) solid;
+    border-right: 1px rgb(21, 21, 21) solid;
+    border-bottom: 1px rgb(21, 21, 21) solid;
+    box-shadow: 0px 5px 10px rgb(8, 8, 8);
+}
+.collab-subgenre {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.subgenre-title {
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.contactto {
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.image {
+    width: 40%;
+    height: 18vw;
+    background-image: url(src\assets\Image\ChinhAnh.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.social {
+    display: flex;
+    padding-top: 50px;
+    padding-right: 200px;
+    padding-left: 100px;
+    margin-left: 100px;
+    width: 60%;
+    height: 400px;
+    background-color: rgb(39, 39, 39) ;
+}
+.content-social {
+    display: block;
+}

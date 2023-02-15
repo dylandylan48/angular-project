@@ -1,0 +1,205 @@
+.main {
+    display: block;
+    background-image: url(src\assets\Image\background.jpg);
+    margin: 0px;
+    top: 0px;
+    width: 100%;
+}
+.spacetop{
+    height: 200px;
+    width: 100%;
+}
+
+.music2020 {
+    margin: auto ;
+    width: 85%;
+}
+.music2021 {
+    margin: auto ;
+    width: 85%;
+}
+.allproduct {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    margin-right: 10px;
+}
+
+.product {
+    width: 220px;
+    height: 600px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-image: url(src\assets\Image\everydays-july2018.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    margin-right: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-size: 400%;                                           /*Dat do lon cho back de tranform */
+    transition: background-size 1s;
+
+}
+.product2 {
+    width: 220px;
+    height: 300px;  
+    display: flex;
+
+    flex-direction: column-reverse;
+    align-items: center;
+    background-image: url(src\assets\Image\20210725_093305.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    margin-right: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-size: 140%;                                           /*Dat do lon cho back de tranform */
+    transition: background-size 1s;
+}
+.product2-left{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product:hover{
+    cursor: pointer;
+    background-size: 300%;
+    box-shadow: 0px 0px 20px rgb(11, 11, 11);
+    transition: 1s;
+}
+.product:hover div.info  {
+    transform: translateY(-10px);
+    transition: .5s;
+}
+.product2:hover{
+    cursor: pointer;
+    background-size: 150%;
+    box-shadow: 0px 0px 20px rgb(11, 11, 11);
+    transition: 1s;
+}
+.product2:hover div.info  {
+    transform: translateY(-10px);
+    transition: .5s;
+}
+.product3 {
+    width: 220px;
+    height: 300px;  
+    display: flex;
+
+    flex-direction: column-reverse;
+    align-items: center;
+    background-image: url('src\assets\Image\Screenshot (38).png');
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    margin-right: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-size: 140%;                                           /*Dat do lon cho back de tranform */
+    transition: background-size 1s;
+}
+.product3:hover{
+    cursor: pointer;
+    background-size: 150%;
+    box-shadow: 0px 0px 20px rgb(11, 11, 11);
+    transition: 1s;
+}
+.product3:hover div.info  {
+    transform: translateY(-10px);
+    transition: .5s;
+}
+.product3-left{
+    display: flex;
+    flex-wrap: wrap;
+}
+.info {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 5px;
+    transform: translateY(0px);
+    transition:1s;
+
+}
+.title {
+    font-size: 20px;
+    font-weight:500;
+}
+
+h1 {
+    font-size: 30px;
+    color: aliceblue;
+    border-left: 10px black solid;
+    background-color: rgb(32, 32, 32);
+    padding-left: 20px;
+    border-top: 1px rgb(21, 21, 21) solid;
+    border-right: 1px rgb(21, 21, 21) solid;
+    border-bottom: 1px rgb(21, 21, 21) solid;
+    box-shadow: 0px 5px 10px rgb(8, 8, 8);
+}
+.inforight {
+    width: 20px;
+    height: 20px;
+    background-image: url(src\assets\Image\playt.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+.inforight:hover {
+    color: rgb(67, 67, 67);
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.wave {
+    width: 50px;
+    height:50px;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    background-blend-mode:darken;
+    margin-bottom: 90px;
+}
+
+
+/*----------------------FOOTER--------------------- */
+.footer {
+    margin-top:50px;
+    width: 100%;
+    height: auto;
+    padding-left:100px;
+    padding-top: 50px;
+    background: #111;
+    color: white;
+    display: flex;
+}
+
+.footer-first-name{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.footer-tag{
+    width: 20%;
+    margin-right: 5%;
+}
+.footer-title{
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(213, 213, 213);
+}
